@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kanmani.prokarma.myapplication.SampleRegister"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+   >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       >
+
+        <EditText
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/MyApp_Register_UserName_ET_Id"
+            android:editable="true"
+            android:hint="FirstName" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/MyApp_Register_LastName_ET_Id"
+            android:editable="true"
+            android:hint="LastName"
+         />
+
+        </LinearLayout>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/MyApp_PassWord_ET_Id"
+        android:hint="Password"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/MyApp_ConfirmPassWord_ET_Id"
+        android:layout_marginTop="20dp"
+        android:hint="Confirm Password" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/MyApp_Email_ET_Id"
+        android:hint="Email"
+        android:layout_marginTop="20dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MyApp_Email_ET_Id"
+        android:id="@+id/MyApp_RG_Id"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:id="@+id/MyApp_Male_RB_Id"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:id="@+id/MyApp_FeMale_RB_Id"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/MyApp_Register_button_Id"
+        android:layout_below="@+id/MyApp_RG_Id"
+        android:background="@color/translucent_red"
+        android:textStyle="bold"
+        />
+        </LinearLayout>
+
+
+</LinearLayout>

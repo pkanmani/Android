@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parentLayout"
+    android:layout_margin="10dp">
+<!--
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView_Id"
+            android:layout_above="@+id/SamplId"
+            >-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/link_terms_conditions"
+                android:id="@+id/MyApp_Terms_TV_Id"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:maxLines="1000"
+
+
+                />
+<!--        </ScrollView>-->
+
+ <!--   <LinearLayout
+        android:id="@+id/SamplId"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+>-->
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Accept"
+            android:id="@+id/MyApp_CheckBox_Id"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+   <!-- </LinearLayout>-->
+
+</RelativeLayout>
