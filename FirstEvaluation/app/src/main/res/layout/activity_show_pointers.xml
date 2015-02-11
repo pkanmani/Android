@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/FirstEvaluation_ViewHolder_RL_Id"
+    tools:context=".activity_frame">
+
+ <!--   <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/Center_View_Id"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/FirstEvaluation_TopRight_View_ID"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/FirstEvaluation_TopLeft_View_ID"
+        android:layout_alignBottom="@+id/FirstEvaluation_TopLeft_View_ID"
+        android:background="@color/bright_foreground_disabled_material_light"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/FirstEvaluation_BootomLeft_View_ID"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/FirstEvaluation_TopLeft_View_ID"
+        android:layout_alignRight="@+id/FirstEvaluation_TopLeft_View_ID"
+        android:background="@color/opaque_red"
+        ></View>
+
+    <View
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/FirstEvaluation_TopLeft_View_ID"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/abc_search_url_text_normal"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/FirstEvaluation_BootomRight_View_ID"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/FirstEvaluation_TopRight_View_ID"
+        android:layout_toRightOf="@+id/FirstEvaluation_BootomLeft_View_ID"
+        android:background="@color/blue"
+        />
+</RelativeLayout>
+
