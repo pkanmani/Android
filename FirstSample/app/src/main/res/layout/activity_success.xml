@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kanmani.prokarma.firstsample.SuccessActivity"
+    android:orientation="vertical"
+
+    >
+
+    <!--<include layout="@layout/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/logoLayoutId"
+        ></include>-->
+    <FrameLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/FirstSample_FL_Success_Fragment_Id">
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="184dp"
+        android:gravity="center"
+        android:layout_margin="5dp">
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ShowContacts"
+            android:id="@+id/FirstSample_ShowContacts_Button_Id"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Next"
+            android:id="@+id/FirstSample_Success_Next_Button_Id"
+            android:layout_margin="5dp"
+            />
+
+    </LinearLayout>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Welcome"
+        android:id="@+id/FirstSample_UserName_ET_Id"
+        android:layout_margin="5dp"/>
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/FirstSample_Camera_IV_Id"
+        android:src="@drawable/camera_icon"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

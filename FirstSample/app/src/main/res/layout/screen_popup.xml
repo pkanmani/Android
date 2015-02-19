@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/popup_element"
+   >
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Welcome to Android"
+      android:id="@+id/WelcomeText_Id"
+      android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:id="@+id/OK_Id"
+        android:layout_below="@+id/WelcomeText_Id"
+        android:layout_toRightOf="@+id/WelcomeText_Id"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/Cancel_Id"
+        android:layout_toRightOf="@+id/OK_Id"
+        android:layout_toEndOf="@+id/OK_Id"
+        android:layout_below="@+id/WelcomeText_Id"
+        android:layout_marginLeft="20dp"
+ />
+
+
+</RelativeLayout>

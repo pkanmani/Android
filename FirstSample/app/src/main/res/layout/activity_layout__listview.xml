@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    tools:context="com.example.kanmani.prokarma.firstsample.LayoutActivityListView">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/FirstSample_textView_Id"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/FirstSample_checkBox_List_Id"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

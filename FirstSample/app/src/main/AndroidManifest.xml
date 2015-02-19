@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kanmani.prokarma.firstsample" >
+
+    <uses-sdk
+        android:maxSdkVersion="20"
+        android:minSdkVersion="14" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LoginActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SuccessActivity"
+            android:label="@string/title_activity_success" />
+        <activity
+            android:name=".ListActivity"
+            android:label="@string/title_activity_list" />
+        <activity
+            android:name=".LayoutSamples"
+            android:label="@string/title_activity_layout_samples" />
+        <activity
+            android:name=".GridSamples"
+            android:label="@string/title_activity_grid_samples" />
+        <activity
+            android:name=".FrameActivity"
+            android:label="@string/title_activity_frame" >
+        </activity>
+        <activity
+            android:name=".DynamicViewsActivity"
+            android:label="@string/title_activity_dynamic_views" >
+        </activity>
+        <activity
+            android:name=".TabBarActivity"
+            android:label="TabBarActivity" >
+        </activity>
+        <activity
+            android:name=".DisplayListItems"
+            android:label="@string/title_activity_display_list_items" >
+        </activity>
+        <activity
+            android:name=".FragmentSamples"
+            android:label="@string/title_activity_fragment_samples" >
+        </activity>
+        <activity
+            android:name=".FragmentSampleB"
+            android:label="@string/title_activity_fragment_sample_b" >
+        </activity>
+    </application>
+
+</manifest>

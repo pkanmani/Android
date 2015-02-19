@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+   <!-- <FrameLayout
+        android:id="@+id/FirstSample_FL_Fragment_Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        ></FrameLayout>-->
+
+<!--    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/FirstSample_FL_Fragment_Id"
+        android:orientation="vertical"></LinearLayout>-->
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/FirstSample_Static_Fragment_Id"
+        android:name="com.example.kanmani.prokarma.firstsample.LogoFragment">
+        </fragment>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/FirstSample_Login_Ll_ET_Layout_Id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FirstSample_FL_Fragment_Id"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/userNameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter UserName" />
+
+        <EditText
+            android:id="@+id/passWordText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:inputType="textPassword" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/FirstSample_Login_Ll_Button_Layout_Id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/FirstSample_Login_Ll_ET_Layout_Id"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/LoginButtonId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/Login"
+
+
+            />
+
+        <Button
+            android:id="@+id/CancelButtonId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/Cancel"
+
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

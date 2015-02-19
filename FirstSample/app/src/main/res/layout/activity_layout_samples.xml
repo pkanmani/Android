@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/FirstSample_LayoutSamples_LLHolder_Id"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/FirstSample_LayoutSamples_List_TV_Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ListView"
+/>
+<!--    <View
+        android:layout_width="10dp"
+        android:layout_height="10dp"></View>-->
+    <TextView
+        android:id="@+id/FirstSample_LayoutSamples_Frame_TV_Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PointerLocation"
+        android:layout_margin="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DynamicViews"
+        android:id="@+id/FirstSample_LayoutSamples_DynamicViews_TV_ID"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TabSamples"
+        android:layout_margin="20dp"
+        android:id="@+id/FirstSample_LayoutSamples_TabSamples_TV_ID"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FragmentSamples"
+        android:id="@+id/FirstSample_LayoutSamples_FragmentSample_TV_Id"/>
+
+</LinearLayout>
+
+
+
+

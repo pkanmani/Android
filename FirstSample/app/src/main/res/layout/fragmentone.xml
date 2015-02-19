@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/FirstSample_FragmentOne_listView_Id" />
+
+    <TextView
+        android:id="@+id/selection"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0000cc"
+        android:textStyle="bold"/>
+
+</LinearLayout>

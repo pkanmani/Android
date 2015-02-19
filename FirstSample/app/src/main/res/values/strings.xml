@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FirstSample</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="logo_label">Logo</string>
+    <string name="Login">Login</string>
+    <string name="Cancel">Cancel</string>
+    <string name="title_activity_success">SuccessActivity</string>
+    <string name="Welcome">Welcome</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_layout_samples">LayoutSamples</string>
+    <string name="title_activity_grid_layout">GridLayout</string>
+    <string name="title_activity_grid_samples">GridSamples</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_layout_activity_list_view">LayoutActivityListView</string>
+    <string name="title_activity_frame">FrameActivity</string>
+    <string name="title_activity_dynamic_views">DynamicViewsActivity</string>
+    <string name="title_activity_tab1">Tab1Activity</string>
+    <string name="title_activity_tab2">Tab2Activity</string>
+    <string name="title_activity_tab3">Tab3Activity</string>
+    <string name="title_activity_display_list_items">DisplayListItems</string>
+    <string name="title_activity_fragment_samples">FragmentSamples</string>
+    <string name="title_activity_fragment_sample_b">FragmentSampleB</string>
+
+</resources>
