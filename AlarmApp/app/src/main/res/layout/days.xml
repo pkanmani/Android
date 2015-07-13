@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/dimens_15"
+    android:paddingTop="@dimen/dimens_20"
+    android:weightSum="7">
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/Sunday"
+        android:text="@string/s"
+        android:textSize="@dimen/dimens_20"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/monday"
+        android:text="@string/m"
+        android:textSize="@dimen/dimens_20"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/tuesday"
+        android:text="@string/t"
+        android:textSize="@dimen/dimens_20"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/wednesday"
+        android:text="@string/w"
+        android:textSize="@dimen/dimens_20"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/thursday"
+        android:text="@string/t"
+        android:textSize="@dimen/dimens_20"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/friday"
+        android:text="@string/f"
+        android:textSize="@dimen/dimens_20"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/saturday"
+        android:text="@string/s"
+        android:textSize="@dimen/dimens_20"
+        />
+
+</LinearLayout>
+
+
+
+

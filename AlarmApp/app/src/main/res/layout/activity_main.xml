@@ -1,0 +1,148 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dark_blue"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/Timer_Holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/dimens_15"
+        android:paddingTop="@dimen/dimens_20">
+
+        <TextView
+            android:id="@+id/time_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="@string/time"
+            android:textSize="50dp" />
+
+
+        <TextView
+            android:id="@+id/time_metrics"
+            android:layout_width="@dimen/dimens_20"
+            android:layout_height="@dimen/dimens_15"
+            android:layout_alignBaseline="@+id/time_TV"
+            android:layout_marginLeft="@dimen/dimens_5"
+            android:layout_toRightOf="@+id/time_TV"
+            android:text="@string/time_metrics" />
+
+        <Switch
+            android:id="@+id/timer_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dimens_10"
+            android:layout_marginTop="@dimen/dimens_10" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dimens_15">
+
+        <CheckBox
+            android:id="@+id/repeat_timer_CB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+
+        <TextView
+            android:id="@+id/repeat_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Repeat"
+            android:textSize="@dimen/dimens_15" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/days_holder"
+        layout="@layout/days"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="@dimen/dimens_10" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/dimens_20"
+
+        >
+
+        <ImageView
+            android:id="@+id/alarm"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="@dimen/dimens_5"
+            android:src="@drawable/alarm" />
+
+        <TextView
+            android:id="@+id/ringTone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimens_5"
+            android:text="@string/alarm_ringTone"
+            android:textSize="20dp" />
+
+        <CheckBox
+            android:id="@+id/ringtone_text_CB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimens_5"
+            android:checked="true" />
+
+        <TextView
+            android:id="@+id/vibrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimens_10"
+            android:text="@string/alarm_vibrate"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="30dp"
+        android:text="@string/label"
+        android:textSize="20sp" />
+    
+    <com.kanmani.prokarma.alarmapp.DrawLine
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_.5"
+        android:layout_marginStart="@dimen/dimens_10"
+        android:layout_marginEnd="@dimen/dimens_10"
+    />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:padding="@dimen/dimens_10"
+        >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:src="@drawable/delete"
+            android:layout_alignParentStart="true"
+
+
+         />
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:text="^"
+            android:textSize="30dp"
+            android:layout_marginTop="@dimen/dimens_10"
+            android:textColor="@color/abc_primary_text_disable_only_material_dark"
+            />
+        </RelativeLayout>
+</LinearLayout>
